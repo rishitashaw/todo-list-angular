@@ -21,7 +21,7 @@ function log(target: any, name: any, descriptor: any): void {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo';
+  title: string = 'todo';
 
   constructor() {
     this.aSimpleMethod(10)
